@@ -71,6 +71,13 @@ section h1{
     text-shadow:2px 1px 5px black;
     text-transform: uppercase;
 }
+
+section .btnone{
+    background-color:transparent;
+    font-size: 4rem;
+    color:white;
+
+}
 #content{
     margin-top: 25px;
     margin-left: 30px;
@@ -84,6 +91,7 @@ section h1{
     vertical-align: top;
     margin-top:25px;
   }
+
 .card {
     
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -121,13 +129,21 @@ section h1{
       font-family: 'Roboto', sans-serif;
       
   }
-  .row {margin: 0 -5px;}
+  .row {
+    margin: 0px -5px;
+}
 
 
   .row:after {
     content: "";
     display: table;
     clear: both;
+  }
+  .queue-list{
+      margin:25px 0px;
+  }
+  .queue-list h2{
+    font-family: 'Mulish', sans-serif;
   }
   .queue-list-column {
     float: left;
@@ -145,6 +161,7 @@ section h1{
      display: flex;
     flex-direction:row;
     align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
   }
   .queue-list-card:hover{
       transform: scale(1.1);
