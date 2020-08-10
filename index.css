@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('https://avatars2.githubusercontent.com/u/42818797?s=200&v=4');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+nav{
+    width:100%;
+    height:15vh;
+    background: rgba(0,0,0,0.2);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    text-transform: uppercase;
+}
+nav .logo{
+    width:25%;
+    text-align:center;
+}
+nav .menu {
+    width:40%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    width:25%;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+main{
+    width:100%;
+    height:85vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+section h3{
+    font-size:35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow:1px 1px 2px black;
+}
+section h1{
+    margin:30px 0 20px 0;
+    font-size:55px;
+    font-weight: 700;
+    text-shadow:2px 1px 5px black;
+    text-transform: uppercase;
+}
+#content{
+    margin-top: 25px;
+    margin-left: 30px;
+    width:65%;
+    display: inline-block;
+}
+#aside{
+    display: inline-block;
+    width:25%;
+    margin-left: 3%;
+    vertical-align: top;
+    margin-top:25px;
+  }
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: 2px solid black;
+    margin-top:3%;
+  }
+  
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card img{
+      width:100%;
+  }
+  
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .row {margin: 0 -5px;}
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .queue-list-column {
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+  
+  }
+  
+  
+  .queue-list-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #888888;
+     display: flex;
+    flex-direction:row;
+    align-items: center;
+  }
+  .queue-list-card img{
+      width:20%;
+      margin-right:3%;
+  }
+footer{
+    background:#e3edf7;
+}
+footer h1{
+    font-family:sans-serif;
+    font-weight: normal;
+    font-size:25px;
+    letter-spacing: 4px;
+    padding: 200px 0 100px;
+    color:#555;
+    text-align:center;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-media a{
+    display: flex;
+    background: #e3edf7;
+    height:75px;
+    width:75px;
+    margin:0 15px;
+    border-radius:8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),-6px -6px 10px -1px rgba(255,255,255,0.7);
+    border: 1px solid rgba(0,0,0,0);
+    transition: transform 0.5s;
+}
+.social-media a i{
+    font-size:35px;
+    color:#777;
+    transition:transform 0.5s;
+}
+.social-media a:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),inset -4px -4px 6px -1px rgba(255,255,255,0.7), -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15), 0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+}
+.social-media a:hover .fa-facebook{
+    color:#3b5998;
+}
+.social-media a:hover .fa-instagram{
+    color:#f14843;
+}
+.social-media a:hover .fa-youtube{
+    color:#f00;
+}
