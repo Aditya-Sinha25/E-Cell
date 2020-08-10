@@ -5,7 +5,7 @@ btnone.addEventListener('click',function(event){
     
     var interval =setInterval(function(){
         var coordinates =content.getBoundingClientRect();
-        if(coordinates.top<= 0){
+        if(coordinates.top<= 10){
             clearInterval(interval);
             return;
         }
